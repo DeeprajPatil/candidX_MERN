@@ -1,0 +1,150 @@
+:root {
+    /* fonts */
+    --font-poppins: Poppins;
+    --font-raleway: Raleway;
+    --font-open-sans: "Open Sans";
+    --font-inter: Inter;
+    --font-josefin-sans: "Josefin Sans";
+  
+    /* font sizes */
+    --font-size-5xl: 24px;
+    --font-size-smi-8: 12.8px;
+    --font-size-base: 16px;
+    --font-size-mini: 15px;
+  
+    /* Colors */
+    --color-gray-100: #111;
+    --color-gray-200: rgba(255, 255, 255, 0.5);
+    --color-white: #fff;
+    --color-mediumseagreen: #20c997;
+    --color-gainsboro: rgba(217, 217, 217, 0);
+    --color-darkslategray-100: #30303d;
+  
+    /* Paddings */
+    --padding-11xs: 2px;
+    --padding-mini: 15px;
+  
+    /* border radiuses */
+    --br-lg: 18px;
+}
+
+.login {
+    margin: 0;
+    line-height: normal;
+    position: relative;
+    background-color: var(--color-gray-100);
+    width: 100%;
+    height: 998px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-raleway);
+}
+
+.continuewithgoogle {
+    position: absolute;
+    top: 271px;
+    left: 460px;
+    border-radius: var(--br-lg);
+    background-color: #111111;
+    border: 4px solid var(--color-darkslategray-100);
+    box-sizing: border-box;
+    width: 481px;
+    height: 61px;
+    cursor: pointer;
+    font-size: var(--font-size-5xl);
+    color: #20C997;
+    font-family: var(--font-raleway);
+  
+}
+
+.continuewithfacebook{
+  position: absolute;
+  top: 355px;
+  left: 460px;
+  width: 481px;
+  border-radius: var(--br-lg);
+  background-color: #111111;
+  border: 4px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  height: 61px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: #20C997;
+  font-family: var(--font-raleway);
+}
+
+.ortext {
+    position: absolute;
+    top: 428px; /* Adjust the distance from the button */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem; /* Adjust font size */
+    color: #333;
+    width: 100%; /* Set width to ensure centering */
+    text-align: center; 
+}
+
+.email {
+    position: absolute;
+    top: 505px;
+    left: 487px;
+    width: 411px;
+    border-radius: var(--br-lg);
+    background-color: #111111;
+    border: 4px solid var(--color-darkslategray-100);
+    box-sizing: border-box;
+    height: 61px;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-raleway);
+}
+
+.password {
+    position: absolute;
+    top: 589px;
+    left: 489px;
+    width: 411px;
+    border-radius: var(--br-lg);
+    background-color: #111111;
+    border: 4px solid var(--color-darkslategray-100);
+    box-sizing: border-box;
+    height: 61px;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-raleway);
+}
+
+.signin {
+    display: inline-block;
+    font-family: var(--font-raleway);
+    position: absolute;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    top: 702px;
+    left: 460px;
+    border-radius: 13px;
+    background: radial-gradient( 50% 50%at 50% 50%, #20c997, #20c997 44.56%, #20c997 );
+    border-bottom: 4px solid var(--color-mediumseagreen);
+    box-sizing: border-box;
+    width: 481px;
+    height: 67px;
+    cursor: pointer;
+}
+
+.donthavean {
+    position: absolute;
+    top: 810px;
+    left: 493px;
+    font-size: 20px;
+}
+.createaaccount {
+    position: absolute;
+    top: 808px;
+    left: 721px;
+}
